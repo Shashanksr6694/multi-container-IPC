@@ -5,9 +5,9 @@ metadata:
 spec:
   containers:
   - name: 1st
-    image: allingeek/ch6_ipc
+    image: shashanksr/multi_ipc
     command: ["./ipc", "-producer"]
   - name: 2nd
-    image: allingeek/ch6_ipc
+    image: shashanksr/multi_ipc
     command: ["./ipc", "-consumer"]
   restartPolicy: Never
